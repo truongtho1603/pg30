@@ -1,0 +1,8 @@
+﻿- Lưu tài khoản đăng nhập (username, pass) và gì ??? (mã xác nhận, chữ ký điện tử). => gồm username, password, mã xác thực. chữ ký điện tử là sau khi mình đăng kí/ đăng nhập mình mới xác nhận chữ kí điện tử. chữ kí đó dùng để chứng thực khi mình thực hiện giao dịch.
+- Hóa đơn lưu như thế nào vì mỗi loại hóa đơn có thuộc tính khác nhau.
+Note_2:
+Thông tin chi tiết của tài khoản thụ hưởng lưu những thông tin gì?
+KHDN có kinh doanh ngoại tệ. KHCN cũng có.
+KHDN có thêm thanh toán quốc tế? có cần đưa những thông tin này vào?
+Trong thông tin tài khoản khách hàng có thông tin của đồng chủ tài khoản? mình có nên lưu vào database?
+Ngày đăng kí tài khoản nên lưu ở thực thể tài khoản hay lưu ở mối quan hệ "mở"?
