@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/layout.css" rel="stylesheet" type="text/css"/>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery-browsercheck.js"></script>
+    <script src="~/Scripts/jquery-defaultvalue.js"></script>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="~/Content/ie.css" type="text/css">
+    <script src="~/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- homepage scripts -->
+    <script src="~/Scripts/jquery.flexslider-min.js"></script>
+    <script>
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: 'slide',
+                controlNav: false,
+                pauseOnHover: true,
+                slideshowSpeed: 8000,
+                animationSpeed: 1000,
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <script src="~/Scripts/jquery.pngFix.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="~/Scripts/jquery.ui.slider-setup.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="wrapper row1">
+        <header id="header" class="clear">
+            <div class="outer">
+                <div class="inner">
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+            <hgroup>
+                <h1><a href="#">ACBOnline</a></h1>
+                <h2>Thanh toán trực tuyến</h2>
+            </hgroup>
+            <nav>
+                <ul class="clear">
+                    <li><a href="@Url.Action("Index","Home")">Khách hàng cá nhân</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="@Url.Action("ManagePage","Home")">Quản lý</a></li>
+                    }
+                    <li><a href="@Url.Action("","")">Dịch vụ</a></li>
+                    <li><a href="@Url.Action("","")">Khuyến mãi</a>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="@Url.Action("Contact","Home")">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="wrapper row2">
+        @RenderSection("slider", required: false)
+    </div>
+    <div class="wrapper row3">
+        <div id="container" class="clear">
+            @RenderBody()
+        </div>
+    </div>
+    <div class="wrapper row5">
+        <footer id="copyright" class="clear">
+            <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Domain Name</a></p>
+            <p class="fl_right">Design by <a target="_blank" href="#" title="Free Website Templates">PG30</a></p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

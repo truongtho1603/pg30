@@ -1,0 +1,2 @@
+- Trang dau mang cac thong tin huong dan
+- khi dang nhap vao thi tro thanh trang quan ly 
