@@ -1,0 +1,216 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@section submit {
+    <header class="header">
+    <div class="row-1">
+    	<h1><a href="#">CreditCard Processing</a></h1>
+        <div class="banner-top">
+        	<strong class="text-1">Call Now To Accept Credit Cards</strong>
+            <strong class="text-2">+1-234-567-890</strong>
+            <span></span>
+        </div>
+    </div>
+    <div class="row-2">
+    	<nav>
+            <ul class="sf-menu">
+                <li><a class="current" href="#"><strong><strong>Home</strong></strong></a></li>
+                <li><a class="item" href="#"><strong><strong>Services</strong></strong><span></span></a>
+                    <ul>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">E-Commerce</a></li>
+                        <li><a href="#">Mail / Phone Orders</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Wireless Orders</a></li>
+                        <li><a href="#">Payment Processing FAQ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><strong><strong>Equipment</strong></strong></a></li>
+                <li><a href="#"><strong><strong>Us vs Them</strong></strong></a></li>
+                <li><a href="#"><strong><strong>Rates</strong></strong></a></li>
+                <li><a href="#"><strong><strong>Apply Online</strong></strong></a></li>
+                <li><a href="#"><strong><strong>cONTACTS</strong></strong></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row-3">
+    	<div class="slider">
+            <ul class="items">
+                <li><img src="~/Images/slide-1.jpg" alt=""></li>
+                <li><img src="~/Images/slide-2.jpg" alt=""></li>
+                <li><img src="~/Images/slide-3.jpg" alt=""></li>
+            </ul>
+            <a href="#" class="play">play</a>
+            <div class="banner">
+            	<strong class="text-1">Get Matched With</strong>
+                <strong class="text-2">The Best Credit Card Processor</strong>
+                <p class="indent-bot">Find the latest news, resources, and tips helping you make informed choices when selecting a credit card 
+processor. Fill out the simple form to be matched with one the nation's top credit card processors.</p>
+				<div class="wrapper">
+                	<div class="banners col-1">
+                    	<ul class="banner-list">
+                        	<li><a href="#">Retail</a></li>
+                            <li><a href="#">Mail/Phone Orders</a></li>
+                            <li><a href="#">E-Commerce</a></li>
+                        </ul>
+                    </div>
+                    <div class="banners col-2">
+                    	<ul class="banner-list">
+                        	<li><a href="#">Wireless</a></li>
+                            <li><a href="#">Trade Show Vendors</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--==============================End header=================================-->
+
+<!--==============================aside=================================-->
+<aside>
+	<div class="padding-aside">
+    	<strong class="topic spacing-bot"><strong class="text-1">Accept Credit Cards Now</strong> <strong class="text-2">GET STARTED HERE</strong></strong>
+        <form id="accept" method="post" name="accept">
+            <div class="prev-indent-bot">
+                <div class="col-1">
+                    <div class="rowElem">
+                        <label><input type="text" value="First Name *"  onFocus="if(this.value=='First Name *'){this.value=''}" onBlur="if(this.value==''){this.value='First Name *'}"></label>
+                        <label><input type="text" value="Last Name *"  onFocus="if(this.value=='Last Name *'){this.value=''}" onBlur="if(this.value==''){this.value='Last Name *'}"></label>
+                        <label><input type="text" value="Business Name *"  onFocus="if(this.value=='Business Name *'){this.value=''}" onBlur="if(this.value==''){this.value='Business Name *'}"></label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="rowElem">
+                        <label><input type="text" value="City *"  onFocus="if(this.value=='City *'){this.value=''}" onBlur="if(this.value==''){this.value='City *'}"></label>
+                    </div>
+                    <div class="rowElem1">
+                        <div class="col-1">
+                            <label>
+                                <select name="select">
+                                    <option>State *</option>
+                                    <option>State2</option>
+                                    <option>State3</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="col-2">
+                            <label><input type="text" value="ZIP *"  onFocus="if(this.value=='ZIP *'){this.value=''}" onBlur="if(this.value==''){this.value='ZIP *'}"></label>
+                        </div>
+                    </div>
+                    <div class="rowElem">
+                        <label><input type="text" value="Preferred Phone *"  onFocus="if(this.value=='Preferred Phone *'){this.value=''}" onBlur="if(this.value==''){this.value='Preferred Phone *'}"></label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="rowElem">
+                        <label><input type="text" value="E-Mail Address *"  onFocus="if(this.value=='E-Mail Address *'){this.value=''}" onBlur="if(this.value==''){this.value='E-Mail Address *'}"></label>
+                        <label>
+                            <select name="select">
+                                <option>Estimate charges to be processed monthly</option>
+                                <option>Estimate charges to be processed monthly 1</option>
+                                <option>Estimate charges to be processed monthly 1</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <span class="text-radio">Do you currently accept credit cards?<span>*</span></span>
+                        <div class="wrapper">
+                            <div class="fleft"><input type="radio" name="radio"><label>Yes</label></div>
+                            <div class="fleft"><input type="radio" name="radio"><label>No</label></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="wrapper">
+            	<div class="img-indent2">
+                	<a class="accept-link" onClick="document.getElementById('accept').submit()"><strong><strong>submit now</strong></strong></a>
+                </div>
+                <div class="extra-wrap">
+                	<span class="secure">Your Data Is Secure</span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <em></em>
+</aside>
+<!--==============================End aside=================================-->
+</div>
+
+<!--==============================content================================-->
+<section id="content">
+	<div class="padding-content">
+    	<div class="container_24">
+        	<div class="wrapper">
+            	<article class="grid_8">
+                	<div class="box">
+                    	<div class="padding-box">
+                        	<h3 class="color-4 title">All about credit card<br>processing</h3>
+                            <ul class="list-1 spacing-bot">
+                            	<li><a href="#">Business</a></li>
+                                <li><a href="#">E-Commerce</a></li>
+                                <li><a href="#">Mail / Phone Orders</a></li>
+                                <li><a href="#">Retail</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Wireless Orders</a></li>
+                                <li><a href="#">Payment Processing FAQ</a></li>
+                            </ul>
+                            <a href="#" class="button"><strong><strong>Read More</strong></strong></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="grid_8">
+                	<div class="box">
+                    	<div class="padding-box">
+                        	<h3 class="spacing-bot">Credit card processing fees</h3>
+                            <h6 class="indent-bot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</h6>
+                            <p class="spacing-bot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                            <a href="#" class="button"><strong><strong>Read More</strong></strong></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="grid_8">
+                	<div class="box">
+                    	<div class="padding-box">
+                        	<h3 class="spacing-bot">Third Party Processors</h3>
+                            <h6 class="indent-bot">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+                            <p class="spacing-bot">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                            <a href="#" class="button"><strong><strong>Read More</strong></strong></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==============================End content================================-->
+
+<!--==============================footer=================================-->
+<footer>
+    <div class="container_24">
+        <div class="wrapper">
+            <article class="grid_12 suffix_5">
+                <ul class="menu-bot">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Us vs Them</a></li>
+                    <li><a href="#">Rates</a></li>
+                    <li><a href="#">Apply Online</a></li>
+                    <li class="last-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </article>
+            <article class="grid_7">
+                <div class="text-bot">
+                    Credit Card Processing  &copy; 2011 <a href="#">Privacy Policy</a><br><!-- {%FOOTER_LINK} -->
+                </div>
+            </article>
+        </div>
+    </div>
+</footer>
+}

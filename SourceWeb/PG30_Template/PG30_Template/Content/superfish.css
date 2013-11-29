@@ -1,0 +1,71 @@
+.sf-menu {width:100%; position:absolute; top:0px; left:0px; margin:0; padding:0; z-index:3; background:url(~/Images/nav-tail.jpg) 0 bottom repeat-x;}
+.sf-menu > li {
+	float:left; 
+	margin:0;
+	text-transform:uppercase;
+	position:relative;
+}
+.sf-menu > li > a {
+	display:block;
+	font-size:16px;
+	line-height:20px;
+	color:#fff;
+	text-decoration:none;
+	word-spacing:-1px;
+	position:relative;
+	background:url(~/Images/menu-left.gif) 0 bottom no-repeat;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.sf-menu > li > a strong {display:inline-block; padding:0 1px; background:url(~/Images/menu-right.gif) right bottom no-repeat;}
+.sf-menu > li > a strong strong {height:36px; padding:10px 15px 0 18px; background:none; cursor:pointer;}
+.sf-menu > li > a.item strong strong {padding:10px 50px 0 18px;}
+.sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu li a.current {background:url(~/Images/menu-left.gif) 0 0 no-repeat;}
+.sf-menu li a:hover strong, .sf-menu li.sfHover a strong, .sf-menu li a.current strong {background:url(~/Images/menu-right.gif) right 0 no-repeat;}
+.sf-menu li a:hover strong strong, .sf-menu li.sfHover a strong strong, .sf-menu li a.current strong strong {background:url(~/Images/menu-tail.gif) 0 0 repeat-x;}
+
+.sf-menu > li > a span {position:absolute; top:13px; right:21px; width:21px; height:21px; background:url(~/Images/menu-marker.gif) 0 0 no-repeat;}
+.sf-menu li a:hover span, .sf-menu li.sfHover a span, .sf-menu li a.current span {background:url(~/Images/menu-marker.gif) 0 bottom no-repeat;}
+
+/***********************submenu***********************/
+.sf-menu ul {
+	display:none;
+	position:absolute;
+	width:205px;
+	border-top:1px solid #5e98b5;
+	border-left:1px solid #5e98b5;
+	border-right:1px solid #5e98b5;
+	padding:0;
+	background:#6daecd;
+	z-index:200;
+}
+.sf-menu ul li {width:100%; margin:0; text-transform:none; position:relative;}
+.sf-menu li:hover li a, .sf-menu li.sfHover li a {
+	display:block;
+	font-size:12px;
+	line-height:15px;
+	color:#fff;
+	font-weight:700;
+	text-decoration:none;
+	padding:6px 0 7px 37px;
+	position:relative;
+	border-bottom:1px solid #5e98b5;
+	background:none;
+}
+.sf-menu li li a:hover, .sf-menu li li.sfHover a {background:url(~/Images/submenu-marker.gif) 9px 5px no-repeat #0f597d;}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {left:0; top:47px; z-index:99;}
+
+/***********************submenu2***********************/
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {left:145px; top:0px;}
+.sf-menu li li.sfHover li a {
+	display:block;
+	font-size:14px;
+	line-height:34px;
+	color:#000;
+	font-weight:400;
+	text-decoration:none; 
+	position:relative;
+	background:url(~/Images/submenu-left.png) left 0 no-repeat;
+}
+.sf-menu li li.sfHover li a:hover {background:url(~/Images/submenu-left.png) 0 bottom no-repeat; color:#fff;}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {outline:0;}

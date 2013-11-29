@@ -1,0 +1,43 @@
+/*----- forms -----*/
+#accept {line-height:1em; margin:0; padding:0;}
+#accept.jqtransformdone div.rowElem, #accept.jqtransformdone div.rowElem1 {clear:both; margin:0; padding:0; position:relative;}
+#accept.jqtransformdone div.rowElem {z-index:1;}
+#accept.jqtransformdone div.rowElem1 {z-index:2;}
+#accept.jqtransformdone div.rowElem label, #accept.jqtransformdone div.rowElem1 label {display:block; height:39px; padding:0; margin:0; position:relative;}
+#accept .rowElem1 .col-1 {width:133px; margin-right:11px;}
+#accept .rowElem1 .col-2 {width:133px; margin-right:0;}
+/* -------------Inputs------------- */
+#accept .rowElem input, .rowElem1 input {font-size:12px; color:#7dbad8; padding:6px 8px; margin:0; outline:none; border:1px solid #0a4f71; background:#fff; position:relative; font-family:Arial, Helvetica, sans-serif;}
+#accept .rowElem input {width:259px;}
+#accept .rowElem1 input {width:115px;}
+/* -------------Selects------------- */
+#accept .rowElem .jqTransformSelectWrapper {position:relative; margin:0; padding:0; width:277px !important;}
+#accept .rowElem1 .jqTransformSelectWrapper {position:relative; margin:0; padding:0; width:133px !important;}
+#accept .rowElem .jqTransformSelectWrapper div span, #accept .rowElem1 .jqTransformSelectWrapper div span {display:block; float:none; background:#fff; position:relative; white-space:nowrap; overflow:hidden; cursor:pointer; font-size:12px; line-height:27px; font-family:Arial, Helvetica, sans-serif; color:#7dbad8; border:1px solid #0a4f71; padding:0px 8px; margin:0;}
+#accept .rowElem .jqTransformSelectWrapper div span {width:259px !important;}
+#accept .rowElem1 .jqTransformSelectWrapper div span {width:115px !important;}
+#accept .jqTransformSelectWrapper  a.jqTransformSelectOpen {display:block; position:absolute; right:4px; top:4px; width:21px; height:21px; background: url(../Images/bg-select.gif) 0 0 no-repeat;}
+#accept .jqTransformSelectWrapper ul {position:absolute; top:30px; left:0px; background:#fff; display:none; margin:0px; padding:0px; overflow:auto; overflow-y:auto; z-index:10; border:1px solid #5e98b5;}
+#accept .rowElem .jqTransformSelectWrapper ul {width:275px !important;}
+#accept .rowElem1 .jqTransformSelectWrapper ul {width:131px !important;}
+#accept .jqTransformSelectWrapper ul a {display:block; padding:2px 2px 2px 8px; background:#FFF; font-size:12px; line-height:15px; color:#7dbad8; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+#accept .jqTransformSelectWrapper ul a.selected {background:#0f597d; color:#fff;}
+#accept .jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {background:#6daecd; color:#fff;}
+/* -------------Radios------------- */
+#accept .radio {margin-top:-2px;}
+#accept .text-radio {display:block; font-size:12px; line-height:15px; color:#fff;}
+#accept .radio label {display:inline-block; width:25px; font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#fff; padding-left:5px;}
+#accept .jqTransformRadioWrapper {float:left; display:block; margin:3px 0 0;}
+#accept .jqTransformRadio {background:url(../Images/bg-radio.png) 0 bottom no-repeat; vertical-align:middle; height:13px; width:13px; display:block;/*display: -moz-inline-block;*/}
+/* -------------Checked - Radio------------- */
+#accept a.jqTransformChecked {background: transparent url(../Images/bg-radio.png) 0 0 no-repeat;}
+/* -------------Hidden - used to hide the original form elements------------- */
+#accept .jqTransformHidden, #cards .jqTransformHidden {display: none;}
+/* -------------Reg-Button------------- */
+#accept .accept-link {display:inline-block; font-size:18px; line-height:22px; color:#292e31; text-transform:uppercase; text-decoration:none; cursor:pointer; background:url(../Images/accept-link-left.png) left 0 no-repeat;}
+#accept .accept-link strong {padding:0 45px 0 10px; display:inline-block; background:url(../Images/accept-link-right.png) right 0 no-repeat;}	
+#accept .accept-link strong strong {background:url(../Images/accept-link-tail.png) 0 0 repeat-x; cursor:pointer; padding:8px 8px 13px 5px;}	
+#accept .accept-link:hover {background:url(../Images/accept-link-left.png) left bottom no-repeat;}
+#accept .accept-link:hover strong  {background:url(../Images/accept-link-right.png) right bottom no-repeat;}
+#accept .accept-link:hover strong strong  {background:url(../Images/accept-link-tail.png) 0 bottom repeat-x;}
+#accept .secure {display:block; font-size:12px; line-height:18px; color:#84bfdd; margin:12px 0 0 3px;}

@@ -1,0 +1,147 @@
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\PG30_Template.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\PG30_Template.pdb
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Antlr3.Runtime.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\EntityFramework.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Newtonsoft.Json.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Helpers.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Http.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Mvc.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Optimization.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Razor.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\WebGrease.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\WebMatrix.Data.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\WebMatrix.WebData.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\EntityFramework.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Newtonsoft.Json.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Helpers.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Http.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Mvc.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.Razor.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\WebMatrix.Data.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\WebMatrix.WebData.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\obj\Debug\PG30_Template.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\obj\Debug\PG30_Template.dll
+c:\users\dell\documents\visual studio 2012\Projects\PG30_Template\PG30_Template\obj\Debug\PG30_Template.pdb
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\PG30_Template.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\PG30_Template.pdb
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Antlr3.Runtime.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\EntityFramework.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.Infrastructure.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Newtonsoft.Json.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Helpers.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Mvc.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Optimization.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Razor.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\WebGrease.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.Data.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.WebData.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\EntityFramework.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Newtonsoft.Json.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Helpers.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Mvc.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Razor.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.Data.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.WebData.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+Z:\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.csprojResolveAssemblyReference.cache
+Z:\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.dll
+Z:\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.pdb
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\PG30_Template.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\PG30_Template.pdb
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Antlr3.Runtime.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\EntityFramework.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Newtonsoft.Json.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Helpers.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Mvc.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Optimization.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Razor.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\WebGrease.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.Data.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.WebData.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\EntityFramework.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Newtonsoft.Json.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Net.Http.Formatting.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Helpers.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Http.WebHost.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Mvc.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.Razor.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.Data.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\Microsoft.Web.WebPages.OAuth.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\WebMatrix.WebData.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.AspNet.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.Core.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.Consumer.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OAuth.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.csprojResolveAssemblyReference.cache
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.dll
+\\psf\Home\SourceWeb\PG30_Template\PG30_Template\obj\Debug\PG30_Template.pdb
