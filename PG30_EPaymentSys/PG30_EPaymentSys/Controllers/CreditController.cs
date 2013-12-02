@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.SqlClient;
+using System.Data.Sql;
 
 namespace PG30_EPaymentSys.Controllers
 {
@@ -38,11 +40,86 @@ namespace PG30_EPaymentSys.Controllers
             return false;
         }
 
-        public bool DomesticValidation(int cardNumber)
+
+        /*
+         * 1 for domestic
+         * 0 for overseas
+         * -1 for exception
+         */
+        public int DomesticValidation(int cardNumber)
         {
-            return false;
+             String connectionString = "user id=thodo;" +
+                                       "password=TruongTho1603><!;" +
+                                       "Data Source=localhost;" +
+                                       "Trusted_Connection=yes;" +
+                                       "database=EC_PAYMENT_SYSTEM_ACB; " +
+                                       "connection timeout=30";
+            SqlConnection conn = new SqlConnection(connectionString);
+            try
+            {
+                conn.Open();
+                String commandString = "";
+                SqlCommand cmd = null;
+                
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                return -1;
+            }
+        
+            return 1;
         }
 
+
+
+        public void MoneyTransformation(int cardNumber1, float amount, int cardNumber2)
+        {
+            String connectionString = "user id=thodo;" +
+                                       "password=TruongTho1603><!;" +
+                                       "Data Source=localhost;" +
+                                       "Trusted_Connection=yes;" +
+                                       "database=EC_PAYMENT_SYSTEM_ACB; " +
+                                       "connection timeout=30";
+            SqlConnection conn = new SqlConnection(connectionString);
+            try
+            {
+                conn.Open();
+                String commandString = "";
+                SqlCommand cmd = null;
+                SqlDataReader reader = null;
+                // fetch the card number 1 amount
+                float amt1 = 0.0f;
+                commandString = "select * from PG_30_THETHANHTOAN where sothe = " + cardNumber1;
+                cmd = new SqlCommand(commandString, conn);
+                reader = cmd.ExecuteReader();
+                amt1 = float.Parse(reader["SODUKHADUNG"].ToString());
+
+                // fetch the card number 2 amount
+                float amt2 = 0.0f;
+                commandString = "select * from PG_30_THETHANHTOAN where sothe = " + cardNumber2;
+                cmd = new SqlCommand(commandString, conn);
+                reader = cmd.ExecuteReader();
+                amt2 = float.Parse(reader["SODUKHADUNG"].ToString());
+
+                // transaction
+                amt1 -= amount;
+                amt2 += amount;
+                // card number 1
+                commandString = "alter table pg_30_thethanhtoan set sodukhadung = " + amt1 + "where sothe = " + cardNumber1;
+                cmd = new SqlCommand(commandString, conn);
+                cmd.ExecuteNonQuery();
+                // card number 2
+                commandString = "alter table pg_30_thethanhtoan set sodukhadung = " + amt2 + "where sothe = " + cardNumber2;
+                cmd = new SqlCommand(commandString, conn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+                return;
+            }
+        }
 
     }
 }
