@@ -49,7 +49,7 @@ namespace PG30_EPaymentSys.Controllers
         public int DomesticValidation(int cardNumber)
         {
              String connectionString = "user id=thodo;" +
-                                       "password=TruongTho1603><!;" +
+                                       "password=;" +
                                        "Data Source=localhost;" +
                                        "Trusted_Connection=yes;" +
                                        "database=EC_PAYMENT_SYSTEM_ACB; " +
@@ -60,7 +60,26 @@ namespace PG30_EPaymentSys.Controllers
                 conn.Open();
                 String commandString = "";
                 SqlCommand cmd = null;
-                
+                SqlDataReader reader = null;
+                // fetch card account information
+                commandString = "select * from PG_30_THETHANHTOAN where sothe = " + cardNumber;
+                cmd = new SqlCommand(commandString, conn);
+                reader = cmd.ExecuteReader();
+                int cardCategoryId = int.Parse(reader["MALOAITHE"].ToString());
+
+                commandString = "select * from PG_30_LOAITHE where maloaithe = " + cardCategoryId;
+                cmd = new SqlCommand(commandString, conn);
+                reader = cmd.ExecuteReader();
+                String cardCategory = reader["TENLOAITHE"].ToString();
+                switch (cardCategory)
+                {
+                    case "VISA DEBIT":
+                    case "VISA CREDIT":
+                    case "MASTERCARD DEBIT":
+                    case "MASTERCARD CREDIT":
+                        return 0;
+                        break;
+                }
             }
             catch (Exception e)
             {
@@ -76,7 +95,7 @@ namespace PG30_EPaymentSys.Controllers
         public void MoneyTransformation(int cardNumber1, float amount, int cardNumber2)
         {
             String connectionString = "user id=thodo;" +
-                                       "password=TruongTho1603><!;" +
+                                       "password=;" +
                                        "Data Source=localhost;" +
                                        "Trusted_Connection=yes;" +
                                        "database=EC_PAYMENT_SYSTEM_ACB; " +
